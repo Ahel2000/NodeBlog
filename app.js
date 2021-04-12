@@ -7,7 +7,7 @@ const Blog = require('./models/blog');
 const app = express();
 
 // connect to mongodb & listen for requests
-const dbURI = "mongodb+srv://Ahel:ahel2000@shoppinglist.smcnl.mongodb.net/nodeblog?retryWrites=true&w=majority";
+const dbURI = "mongodb+srv://Ahel:*************@shoppinglist.smcnl.mongodb.net/nodeblog?retryWrites=true&w=majority";
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(result => app.listen(3000))
