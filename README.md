@@ -4,4 +4,4 @@ This is my first project in NodeJs. The blog supports three basic CRUD operation
 
 <img src="screenshots/blog1.png"/>
 <img src="screenshots/blog4.png"/>
-<img src="screenshots/blog3.png"/>
+<img src="screenshots/blog2.png"/>
