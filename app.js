@@ -93,6 +93,6 @@ app.use((req, res) => {
 });
 
 
-app.listen(process.env.PORT, '0.0.0.0', () => {
+app.listen(process.env.PORT || 3000, '0.0.0.0', () => {
   console.log('listening for requests on port 3000');
 });
